@@ -1,4 +1,4 @@
-package br.gov.pr.celepar.memoriaponto.datastore;
+package com.github.memoriaponto.datastore;
 
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
@@ -10,10 +10,11 @@ import java.util.Date;
 
 import org.xml.sax.DTDHandler;
 
+import com.github.memoriaponto.model.Evento;
+
 
 import android.content.Context;
 import android.database.Cursor;
-import br.gov.pr.celepar.memoriaponto.model.Evento;
 
 public class DBHelper extends SQLiteOpenHelper {
 	private final SimpleDateFormat df = new SimpleDateFormat("dd/MM HH:mm");

@@ -1,4 +1,4 @@
-package br.gov.pr.celepar.memoriaponto.model;
+package com.github.memoriaponto.model;
 
 import java.util.Date;
 
