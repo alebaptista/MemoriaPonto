@@ -1,4 +1,4 @@
-package com.apb.mponto.model;
+package br.gov.pr.celepar.memoriaponto.model;
 
 import java.util.Date;
 

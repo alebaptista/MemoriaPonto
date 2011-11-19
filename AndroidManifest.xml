@@ -15,7 +15,7 @@
             </intent-filter>
         </activity>
         
-        <activity android:name=".TheBurgerPlaceActivity"
+        <activity android:name=".TheBurgerPlaceActivityiaponto.TheBurgerPlaceActivity"
         		android:label="The Burger Place\'s Menu">
         	<intent-filter>
 				<action android:name="com.packtpub.deliverydroid.TheBurgerPlaceActivity"/>

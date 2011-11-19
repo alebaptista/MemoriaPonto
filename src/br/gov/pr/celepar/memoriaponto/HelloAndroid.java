@@ -1,4 +1,4 @@
-package com.apb.mponto;
+package br.gov.pr.celepar.memoriaponto;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -14,9 +14,10 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
+import br.gov.pr.celepar.memoriaponto.datastore.DBHelper;
+import br.gov.pr.celepar.memoriaponto.model.Evento;
 
-import com.apb.mponto.datastore.DBHelper;
-import com.apb.mponto.model.Evento;
+import com.apb.mponto.R;
 
 
 public class HelloAndroid extends Activity implements OnClickListener {
