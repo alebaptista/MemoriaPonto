@@ -7,6 +7,6 @@
 	<dimen name="padding">15dp</dimen>
 	
 	<dimen name="funcao_button_width">70sp</dimen>
-	<dimen name="operacao_button_width">100sp</dimen>
+	<dimen name="operacao_button_width">90sp</dimen>
 
 </resources>

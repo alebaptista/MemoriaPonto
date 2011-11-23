@@ -8,17 +8,13 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	android:orientation="vertical" android:layout_width="fill_parent"
 	android:layout_height="fill_parent">
-	<DigitalClock android:id="@+id/digital"
-		android:layout_width="wrap_content" android:layout_height="wrap_content"
-		android:layout_centerHorizontal="true" />
 		
 	<ScrollView android:id="@+id/scrolling_table"
 		android:layout_width="300dp"
 		android:layout_height="200dp"
-		android:layout_below="@id/digital">
+		>
 	<TableLayout android:id="@+id/track_listing"
-		android:stretchColumns="1"
-		android:layout_below="@id/digital"
+		android:stretchColumns="1"		
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"/>
 	</ScrollView>
@@ -46,7 +42,8 @@
 		android:orientation="horizontal" android:layout_width="fill_parent"
 		android:layout_height="wrap_content">
 		<Button android:id="@+id/entrada" android:text="Entrada"
-			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			android:layout_width="@dimen/operacao_button_width"
+			android:layout_height="wrap_content" />
 			
 		<TextView android:id="@+id/tipo"
 		  android:textSize="@dimen/item_text_size"

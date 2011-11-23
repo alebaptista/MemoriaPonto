@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.apb.mponto"
+      package="com.apb.mponto.lite"
       android:versionCode="1"
       android:versionName="1.0">
     <uses-sdk android:minSdkVersion="1"></uses-sdk>
@@ -15,7 +15,7 @@
             </intent-filter>
         </activity>
         
-        <activity android:name=".TheBurgerPlaceActivityiaponto.TheBurgerPlaceActivity"
+        <activity android:name=".TheBurgerPlaceActivity"
         		android:label="The Burger Place\'s Menu">
         	<intent-filter>
 				<action android:name="com.packtpub.deliverydroid.TheBurgerPlaceActivity"/>

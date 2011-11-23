@@ -15,3 +15,18 @@ I5500d1d6cb2b	device
 
 ale@note:~/app/android-sdk/platform-tools$ ./adb -s I5500d1d6cb2b shell
 $ sqlite3 data/data/com.apb.mponto/databases/sample.db
+
+TableRow TableLayout table row add delete remove removeview addview Android example
+http://android.okhelp.cz/tablerow-tablelayout-table-row-add-delete-remove-removeview-addview-android-example/
+
+How to update custom listview images simply
+http://www.helloandroid.com/tutorials/how-update-custom-listview-images-simply
+
+Update custom listview images simply - how to 
+http://www.android10.org/index.php/articlesuserinterface/171-update-custom-listview-images-simply-ho
+
+!!! EGit/Git For Eclipse Users
+http://wiki.eclipse.org/EGit/Git_For_Eclipse_Users
+
+!!! Android SQLite database shared between activities
+http://stackoverflow.com/questions/3900740/android-sqlite-database-shared-between-activities

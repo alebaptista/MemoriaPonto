@@ -1,4 +1,4 @@
-package com.github.memoriaponto.datastore;
+package com.apb.mponto.datastore;
 
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
@@ -10,8 +10,7 @@ import java.util.Date;
 
 import org.xml.sax.DTDHandler;
 
-import com.github.memoriaponto.model.Evento;
-
+import com.apb.mponto.model.Evento;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -69,7 +68,8 @@ public class DBHelper extends SQLiteOpenHelper {
         ArrayList<Evento> list = new ArrayList<Evento>();
         // "strftime('%Y-%m-%d %H:%M', _data ) "
         Cursor cursor = this.db.query(TABLE_NAME, new String[] { "_data", "descricao" }, 
-null, null, null, null, null);
+null, null, null, null, 
+        			"_data DESC"); // SQL ORDER BY
         if (cursor.moveToFirst()) {
             do {
                 Evento f = new Evento(null, null);
